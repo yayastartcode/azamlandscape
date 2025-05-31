@@ -1,0 +1,15 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+    <g transform="translate(10, 15)">
+        <!-- Fish icon -->
+        <path d="M30 15C30 15 25 5 15 5C5 5 0 15 0 15C0 15 5 25 15 25C25 25 30 15 30 15Z" fill="#45B54A"/>
+        <circle cx="20" cy="13" r="2" fill="white"/>
+        
+        <!-- Text -->
+        <text x="40" y="20" font-family="Arial" font-size="24" font-weight="bold" fill="#333">
+            anjani
+        </text>
+        <text x="40" y="35" font-family="Arial" font-size="14" fill="#666">
+            resources
+        </text>
+    </g>
+</svg>
