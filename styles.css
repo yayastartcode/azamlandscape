@@ -269,17 +269,39 @@
 }
 
 .feature-icon {
+    width: 58px;
+    height: 58px;
     margin-bottom: 15px;
+    border-radius: 50%;
+    background: rgba(69, 181, 74, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .feature-icon img,
 .feature-icon svg {
-    width: 50px;
-    height: 50px;
+    width: 28px;
+    height: 28px;
 }
 
 .feature-icon svg {
     fill: #45B54A;
+}
+
+.feature-icon i {
+    color: #45B54A;
+    font-size: 26px;
+    line-height: 1;
+}
+
+.feature-box-highlight .feature-icon {
+    background: #45B54A;
+    box-shadow: 0 8px 18px rgba(69, 181, 74, 0.2);
+}
+
+.feature-box-highlight .feature-icon i {
+    color: #fff;
 }
 
 .feature-box h3 {
@@ -1021,6 +1043,16 @@
     width: 20px;
     height: 20px;
     fill: #fff;
+}
+
+.contact-icon i {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.contact-icon .fa-whatsapp {
+    font-size: 21px;
 }
 
 .contact-text h3 {
